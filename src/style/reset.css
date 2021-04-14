@@ -1,0 +1,156 @@
+/* 公共css可以添加新的，尽量不要改原有的东西--李波 */
+/* 重置css */
+
+html {
+  font-size: 0.14rem;
+  line-height: 1;
+  font-family: "PingFang SC", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+body {
+  font-size: 16px;
+}
+* {
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: inherit;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+input[type],
+[contenteditable] {
+  user-select: text;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+base,
+basefont,
+datalist,
+head,
+meta,
+script,
+style,
+title,
+noembed,
+param,
+template {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+b {
+  font-weight: 400;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+a:focus,
+button:focus {
+  outline: 0;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+input,
+fieldset {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  font-family: inherit;
+  border-radius: 0;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+svg {
+  display: inline-flex;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
